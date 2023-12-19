@@ -6,11 +6,11 @@ const HomeInfo = ({ currentStage }) => {
   if (currentStage === 1)
     return (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
-        Hi, I'm
-        <span className='font-semibold mx-2 text-white'>Adrian</span>
+        Olá, eu sou
+        <span className='font-semibold mx-2 text-white'>Gustavo Gomes</span>
         👋
         <br />
-        A Software Engineer from Croatia 🇭🇷
+        Futuro engenheiro de software no Brasil
       </h1>
     );
 
@@ -18,11 +18,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium sm:text-xl text-center'>
-          Worked with many companies <br /> and picked up many skills along the way
+          Trabalho com desenvolvimento web e mobile <br /> e estou sempre em busca de novas soluções e ideias
         </p>
 
         <Link to='/about' className='neo-brutalism-white neo-btn'>
-          Learn more
+          Saiba mais
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -33,11 +33,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Led multiple projects to success over the years. <br /> Curious about the impact?
+          Já desenvolvi projetos para uma pizzaria, sistemas de gestão, tickets, entre outros, ficou curioso ?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my portfolio
+          Visitie o meu portifólio
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -48,11 +48,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+        Visite o meu GitHub e veja os meus projetos
       </p>
 
-      <Link to='/contact' className='neo-brutalism-white neo-btn'>
-        Let's talk
+      <Link to='https://github.com/Gusthgomes' className='neo-brutalism-white neo-btn'>
+        Ir para o GitHub
         <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
       </Link>
     </div>
