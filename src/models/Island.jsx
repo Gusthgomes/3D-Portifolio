@@ -1,4 +1,4 @@
-/**
+;/**
  * IMPORTANT: Loading glTF models into a Three.js scene is a lot of work.
  * Before we can configure or animate our model’s meshes, we need to iterate through
  * each part of our model’s meshes and save them separately.
@@ -16,7 +16,7 @@ import { useFrame, useThree } from "@react-three/fiber";
 
 import islandScene from "../assets/3d/island.glb";
 
-export default function Island({
+export function Island({
   isRotating,
   setIsRotating,
   setCurrentStage,
@@ -209,4 +209,3 @@ export default function Island({
     </a.group>
   );
 }
-
